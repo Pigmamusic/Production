@@ -1,5 +1,5 @@
 - name: Hello World Sample
   hosts: WEB-ASG
   tasks:
-    - name: Hello Message
+    - name: start nginx
       shell: sudo systemctl start nginx 
