@@ -1,4 +1,4 @@
-- name: Hello World Sample
+- name: WEB Playbook Test
   hosts: WEB-ASG
   tasks:
     - name: start nginx
