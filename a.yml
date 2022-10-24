@@ -2,4 +2,4 @@
   hosts: all
   tasks:
     - name: Hello Message
-      service: name=nginx state=stopped
+      shell: sudo systemctl stop nginx 
