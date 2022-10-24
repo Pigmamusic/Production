@@ -2,4 +2,4 @@
   hosts: WEB-ASG
   tasks:
     - name: Hello Message
-      shell: sudo systemctl stop nginx 
+      shell: sudo systemctl start nginx 
