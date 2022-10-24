@@ -1,0 +1,5 @@
+- name: WAS Playbook Test
+  hosts: WAS-ASG
+  tasks:
+    - name: create file
+      shell: sudo touch /home/ec2-user/test_playbook
