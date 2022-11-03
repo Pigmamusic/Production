@@ -1,5 +1,5 @@
 - name: WEB Playbook Test
   hosts: WEB-ASG
   tasks:
-    - name: stop nginx
+    - name: stop nginx 
       shell: sudo systemctl stop nginx 
