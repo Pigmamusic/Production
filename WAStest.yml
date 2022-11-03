@@ -2,4 +2,4 @@
   hosts: WAS-ASG
   tasks:
     - name: Service Down
-      shell: docker stop pig
+      shell: docker stop pig 
